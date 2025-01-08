@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 
 #mysql alchemy engine created to querying with MYSQL Database
 
-engine = create_engine("mysql+pymysql://root:Vishnu1101@localhost/airbnb")
+engine = create_engine("mysql+pymysql://root:password@localhost/database_name")
 
 
 #set up page configuration for streamlit
